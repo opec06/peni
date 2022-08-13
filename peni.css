@@ -1,5 +1,5 @@
 
-  @media not (min-width:480px) and (max-width:700px) {
+   @media not (min-width:480px) and (max-width:700px) {
     /* CSS rules for any device that is wider than 700px pixels */
   
     }
@@ -35,9 +35,6 @@ body {
 
 .flex-prop {
     flex: 1 0 auto;
-}
-.nav-bar a:hover{
-
 }
 
 /*================================================================
@@ -407,11 +404,22 @@ body {
            footer Section
 ===================================*/
 .back{
-   
-    
-     bottom: 0px;
+      padding-top: 100px;
+     bottom: 200px;
    
 }
+.bak{
+    /* background-image: url('/image/rectangle4.png'); */
+    height: 250px;
+    position: relative;
+    top: 20px;
+}
+.fhead{
+    position: relative; 
+    top: 45px;
+    right: 30px;
+}
+
 .img5{
 
     width: 30px;
@@ -420,13 +428,25 @@ body {
     
 }
 .iconspace {
-    margin-left: 12px;
+    margin-left: 2px;
     /* border: 1px solid red; */
     margin-top: 22px;
 }
 .iconspace2 {
-    margin-left: 12px;
+    margin-left: 2px;
     /* border: 1px solid blue; */
+    margin-top: 22px;
+    
+}
+.iconspace3 {
+    margin-left: 2px;
+    /* border: 1px solid yellow; */
+    margin-top: 22px;
+    
+}
+.iconspace4 {
+    margin-left: 2px;
+    /* border: 1px solid yellow; */
     margin-top: 22px;
     
 }
@@ -434,9 +454,30 @@ body {
     /* border: 5px solid green; */
     margin-left: 35px;
     margin-top: -30px;
-}
-.btn{
-    margin-top: 10px;
     color: #30106B;
+}
+.btn1{
+    margin-top: 5px;
+    color: #30106B;
+    margin-left: 5px;
+    padding-left: 15px;
+    position: relative;
+    top:10px
     
+}
+.btn2{
+    margin-right: 5px;
+    margin-top: 5px;
+    color: #30106B;
+    padding-left: 15px;
+    position: relative;
+    top: 10px;
+    
+}
+.ficon{
+    padding-left: 15px;
+}
+.fcontents{
+    position: relative;
+    top:200px
 }
